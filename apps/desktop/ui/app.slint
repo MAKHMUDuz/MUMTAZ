@@ -1,0 +1,77 @@
+import { VerticalBox, HorizontalBox } from "std-widgets.slint";
+
+export component MainWindow inherits Window {
+    title: "MUMTAZ";
+    min-width: 860px;
+    min-height: 560px;
+    preferred-width: 1120px;
+    preferred-height: 720px;
+    background: #111214;
+
+    HorizontalBox {
+        spacing: 0px;
+
+        Rectangle {
+            width: 218px;
+            background: #17181b;
+
+            VerticalBox {
+                padding: 18px;
+                spacing: 22px;
+
+                Text {
+                    text: "MUMTAZ";
+                    color: #f2eee8;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                Rectangle { height: 1px; background: #2a2b30; }
+
+                VerticalBox {
+                    spacing: 8px;
+                    Text { text: "KÜTÜPHANE"; color: #85858d; font-size: 10px; letter-spacing: 1px; }
+                    Text { text: "⌂   Ana sayfa"; color: #f2eee8; font-size: 14px; }
+                    Text { text: "▣   Filmler"; color: #aaaab2; font-size: 14px; }
+                    Text { text: "▣   Diziler"; color: #aaaab2; font-size: 14px; }
+                    Text { text: "▤   Kitaplar"; color: #aaaab2; font-size: 14px; }
+                    Text { text: "♫   Müzik"; color: #aaaab2; font-size: 14px; }
+                }
+
+                VerticalBox {
+                    spacing: 8px;
+                    Text { text: "DÜZENLE"; color: #85858d; font-size: 10px; letter-spacing: 1px; }
+                    Text { text: "☷   Koleksiyonlar"; color: #aaaab2; font-size: 14px; }
+                }
+
+                Rectangle { }
+
+                Text { text: "Yerel kütüphane · Çevrimdışı hazır"; color: #777880; font-size: 10px; wrap: word-wrap; }
+            }
+        }
+
+        Rectangle {
+            background: #111214;
+            VerticalBox {
+                padding: 48px;
+                spacing: 24px;
+
+                Text { text: "Kişisel kültür arşiviniz"; color: #f2eee8; font-size: 29px; font-weight: 600; }
+                Text { text: "İzlediklerinizi, okuduklarınızı ve keşfettiklerinizi tek bir yerde tutun."; color: #a1a1a9; font-size: 15px; }
+
+                Rectangle { height: 1px; background: #292a2f; }
+
+                Rectangle {
+                    background: #18191d;
+                    border-radius: 12px;
+                    VerticalBox {
+                        alignment: center;
+                        spacing: 12px;
+                        Text { text: "Kütüphaneniz burada başlayacak"; color: #e8e5df; font-size: 18px; font-weight: 600; horizontal-alignment: center; }
+                        Text { text: "MUMTAZ şu anda yerel masaüstü iskeleti olarak çalışıyor."; color: #9999a1; font-size: 13px; horizontal-alignment: center; }
+                    }
+                }
+            }
+        }
+    }
+}
