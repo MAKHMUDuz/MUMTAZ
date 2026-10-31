@@ -20,7 +20,7 @@ MUMTAZ is being built to work without a required cloud account or central applic
 
 ## Project status
 
-**v0.0.1 is an early desktop foundation.** It opens a native Slint window on Linux. The catalog, database, ratings, reviews, collections, and social features have not been implemented yet. See the [roadmap](docs/ROADMAP.md) for the current phase and next step.
+**v0.0.2 is an early desktop foundation.** It opens a native Slint window on Linux. The catalog, database, ratings, reviews, collections, and social features have not been implemented yet. See the [roadmap](docs/ROADMAP.md) for the current phase and next step.
 
 ## Build from source
 
@@ -37,8 +37,8 @@ The initial Linux build uses Slint with Winit and a software renderer. See [arch
 
 MUMTAZ; film, dizi, kitap ve müzik arşivini, puanları, yorumları ve kişisel listeleri tek bir profilde toplamayı amaçlayan yerel öncelikli bir kültür kütüphanesidir. Bir oynatıcı veya yayın platformu değildir; içerikleri izlemez, çalmaz ya da okutmaz.
 
-**v0.0.1**, Linux’ta açılan yerel masaüstü iskeletidir. Katalog, veritabanı, puanlama ve liste özellikleri henüz geliştirilmemiştir.
+**v0.0.2**, Linux’ta açılan yerel masaüstü iskeletidir. Katalog, veritabanı, puanlama ve liste özellikleri henüz geliştirilmemiştir. Bu sürüm GPL-3.0-only lisanslıdır.
 
 ## License
 
-MUMTAZ is distributed under the MIT License. See [LICENSE](LICENSE).
+MUMTAZ v0.0.2 and later are distributed under the **GNU General Public License v3.0 only** (`GPL-3.0-only`); later GPL versions are not included. The previously published v0.0.1 release retains its original MIT license. See [LICENSE](LICENSE).
